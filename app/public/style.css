@@ -55,7 +55,7 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url("/app/images/oil-106913_1280.jpg");
+    background: url("../images/oil-106913_1280.jpg");
     background-size: cover;
     background-position: center;
     display: flex;

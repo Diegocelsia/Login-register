@@ -10,8 +10,9 @@ app.listen(4000, () => {
 
 
 //configuracion Css - Enlace de Files
-app.use(express.static(__dirname + "/public"))
-app.use("/images", express.static("images"))
+app.use(express.static(__dirname + "/public"))//enlace con la carpeta public
+app.use('/images', express.static('app/images'));//enlace  con la carpeta de imagenes
+
 
 
 
