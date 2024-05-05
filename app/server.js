@@ -17,6 +17,7 @@ app.use('/images', express.static('app/images'));//enlace  con la carpeta de ima
 
 
 //Rutas
-app.get("/", (req, res) => res.sendFile(__dirname + "/pages/login.html"))//Ruta de Login
+app.get("/", (req, res) => res.sendFile(__dirname + "/pages/login.html"))//Ruta de Login principal
 app.get("/register", (req, res) => res.sendFile(__dirname + "/pages/register.html"))//Ruta de registro
+app.get("/admin", (req, res) => res.sendFile(__dirname + "/pages/admin/admin.html"))//Ruta de Admin
 
